@@ -6,7 +6,11 @@
 .center {
 		margin: auto;
 		width: 50%;
-	}
+}
+
+.left {
+    width: 200px;
+}
 	
 div {
 	border:2px solid gray;
@@ -51,8 +55,27 @@ div {
 #trademark { 
 	width: 300px;
 	margin: 0px auto;
+    padding-left: 50%;
+    padding-right: 50%;
 	color: maroon;
-	
+    background-color: darkgrey;
+    opacity: 1;
+}
+
+#imgCarousel {
+    float: right;
+    width:300px;
+    height:300px;
+}
+
+#imgCarousel, img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#spaceView {
+    float: right;
+    width:300px;
 }
 	
 #title-block {
@@ -63,17 +86,17 @@ div.containers {
 	border-style: outset;
     border-radius: 10px;
 	padding: 3px;
-		
-	}
+}
 	
-	
-  div#plant-list {
+ div#plant-list {
 	width: 200px;
 }
-	div#plant-detail {
+
+div#plant-detail {
 	position: absolute;
 	right: 5%;
 }
-	div#plant-detail {
-		max-width: 500px;
-	}
+
+div#plant-detail {
+    max-width: 500px;
+}
