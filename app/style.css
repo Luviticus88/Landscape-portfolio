@@ -1,0 +1,79 @@
+ body {background-color: beige;}
+  h1 {color: maroon;
+		font-style: Italic;
+		text-align: center;
+		}
+.center {
+		margin: auto;
+		width: 50%;
+	}
+	
+div {
+	border:2px solid gray;
+}
+	
+.center, p a {
+		text-align:center;
+}
+
+.bottom {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+/*
+h2 {
+	color:gray;
+	font-size: 30px;
+	}
+  p {color: gray;}
+  
+  .demo {color: black;
+			font-style: italic;}
+			
+div {
+	
+	}
+*/
+
+#navi-link {
+		position: relative;
+		border: 2px solid black;
+		border-radius: 20px;
+		padding: 10px;
+		top: 50%;
+}
+
+#navi-link a {
+	font-size: 25px;
+}
+			
+#trademark { 
+	width: 300px;
+	margin: 0px auto;
+	color: maroon;
+	
+}
+	
+#title-block {
+		position: absolute
+}	
+	
+div.containers {
+	border-style: outset;
+    border-radius: 10px;
+	padding: 3px;
+		
+	}
+	
+	
+  div#plant-list {
+	width: 200px;
+}
+	div#plant-detail {
+	position: absolute;
+	right: 5%;
+}
+	div#plant-detail {
+		max-width: 500px;
+	}
